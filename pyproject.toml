@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spain-electricity-forecast"
+version = "0.1.0"
+description = "24h electricity demand forecasting for peninsular Spain"
+requires-python = ">=3.11"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]
