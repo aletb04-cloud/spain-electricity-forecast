@@ -9,6 +9,13 @@ PROCESSED_DATA_DIR = PROJECT_ROOT / "data" / "processed"
 DEMAND_RAW_PATH = RAW_DATA_DIR / "demand_raw.parquet"
 WEATHER_RAW_PATH = RAW_DATA_DIR / "weather_raw.parquet"
 
+# Raw ingestion output files
+DEMAND_RAW_PATH = RAW_DATA_DIR / "demand_raw.parquet"
+WEATHER_RAW_PATH = RAW_DATA_DIR / "weather_raw.parquet"
+
+# Processed output file
+CLEAN_DATA_PATH = PROCESSED_DATA_DIR / "dataset_clean.parquet"
+
 # 2. HISTORICAL TIME WINDOW
 START_DATE = "2022-01-01"
 END_DATE = "2026-10-31"
@@ -24,6 +31,7 @@ WEATHER_VARS = [
 ]
 
 # 4. WEATHER NODES (Coordinates & population/consumption weights)
+# The weights are based on the population distribution of the cities
 WEATHER_NODES = {
     "madrid": {"lat": 40.4168, "lon": -3.7038, "weight": 0.35},
     "barcelona": {"lat": 41.3851, "lon": 2.1734, "weight": 0.28},
