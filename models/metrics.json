@@ -1,0 +1,24 @@
+{
+  "best_iteration": 1407,
+  "num_features": 27,
+  "test_baseline_lag_24h": {
+    "mae_mwh": 1810.63,
+    "rmse_mwh": 2663.93,
+    "mape_pct": 6.415
+  },
+  "test_baseline_lag_168h": {
+    "mae_mwh": 1405.32,
+    "rmse_mwh": 1955.82,
+    "mape_pct": 4.944
+  },
+  "val_lgbm": {
+    "mae_mwh": 590.34,
+    "rmse_mwh": 904.57,
+    "mape_pct": 2.086
+  },
+  "test_lgbm": {
+    "mae_mwh": 537.66,
+    "rmse_mwh": 714.69,
+    "mape_pct": 1.837
+  }
+}
