@@ -55,3 +55,7 @@ TEST_START_DATE = "2026-07-01"
 TARGET_COL = "demand_mwh"
 NON_FEATURE_COLS = ["timestamp_utc", "demand_mwh"]
 
+# 7. INFERENCE & API CONFIGURATION
+OPEN_METEO_FORECAST_URL = "https://api.open-meteo.com/v1/forecast"
+INFERENCE_HISTORY_DAYS = 10
+
