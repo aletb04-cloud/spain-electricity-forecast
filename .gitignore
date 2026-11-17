@@ -1,0 +1,22 @@
+# Environment and virtual environment
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Models and data (ignore all files in these directories except tracked artifacts)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+models/*
+!models/.gitkeep
+!models/metrics.json
+!models/lgbm_demand_24h.joblib
+
+# OS, IDE & environment variables
+.DS_Store
+.vscode/
+.env

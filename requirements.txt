@@ -1,0 +1,20 @@
+# Data Ingestion & Processing
+requests
+pandas
+numpy
+pyarrow
+holidays
+
+# Machine Learning & Serialization
+scikit-learn
+lightgbm
+xgboost
+joblib
+
+# Visualization & Notebooks
+matplotlib
+seaborn
+jupyter
+
+# Testing
+pytest

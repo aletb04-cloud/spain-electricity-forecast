@@ -11,3 +11,14 @@ requires-python = ">=3.11"
 [tool.setuptools.packages.find]
 where = ["."]
 include = ["src*"]
+
+dependencies = [
+    "pandas",
+    "numpy",
+    "requests",
+    "pyarrow",
+    "holidays",
+    "lightgbm",
+    "scikit-learn",
+    "joblib",
+]
