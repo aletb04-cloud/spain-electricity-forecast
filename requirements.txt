@@ -11,6 +11,10 @@ lightgbm
 xgboost
 joblib
 
+# Web API & Validation
+fastapi
+uvicorn[standard]
+
 # Visualization & Notebooks
 matplotlib
 seaborn
@@ -18,3 +22,4 @@ jupyter
 
 # Testing
 pytest
+httpx
